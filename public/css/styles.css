@@ -89,14 +89,23 @@ h1 {
 }
 
 header li,
-a,
-button {
+header a,
+header button {
     opacity: 0;
     font-weight: 500;
     font-size: 16px;
-    color: var(--main-offwhite);
+    color: inherit;
     text-decoration: none;
     animation: fadein .3s ease 1.4s forwards;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.main-content h2 {
+    overflow: hidden;
 }
 
 #logo-svg {
